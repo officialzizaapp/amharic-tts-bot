@@ -1,9 +1,12 @@
 python-telegram-bot==21.6
 python-dotenv==1.0.1
 transformers==4.45.2
-torch==2.1.0+cpu
-torchaudio==2.1.0+cpu
+
+# CPU versions of PyTorch
+torch==2.0.0+cpu
+torchaudio==2.0.0+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
+
 numpy
 scipy
 pydub==0.25.1
